@@ -25,7 +25,7 @@ const AboutMe = () => {
             <Wrapper>
                 {/* HEADING START */}
                 <Div className="text-[40px] md:text-[90px] 2xl:text-[120px] leading-[52px] md:leading-[95px] 2xl:leading-[123px] font-oswald uppercase mb-[25px] md:mb-[40px] 2xl:mb-[60px] flex flex-col relative">
-                    <span>A Product Designer</span>
+                    <span>A Student</span>
                     <span className="flex items-center gap-2">
                         <span>Based</span>
                         <img
@@ -40,32 +40,28 @@ const AboutMe = () => {
 
                 {/* PARAGRAPH START */}
                 <Div className="max-w-[759px] 2xl:max-w-[959px] text-[16px] 2xl:text-[20px] leading-[24px] 2xl:leading-[32px] mb-[20px] md:mb-[30px] 2xl:mb-[50px] relative">
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it
+                I am a passionate third-year student with a relentless drive for knowledge and innovation.
+                Currently, I am on an exciting journey pursuing a degree in Electronics & Computer Engineering.
+                This academic path has opened the door to a world of possibilities, and I am committed to exploring them all.
                 </Div>
                 {/* PARAGRAPH END */}
 
                 {/* PARAGRAPH START */}
                 <Div className="max-w-[759px] 2xl:max-w-[959px] text-[16px] 2xl:text-[20px] leading-[24px] 2xl:leading-[32px] mb-[20px] md:mb-[30px] 2xl:mb-[50px] relative">
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it
+                My insatiable thirst for learning has led me to delve deep into the realm of web development.
+                I've been honing my skills in technologies such as HTML, CSS, JavaScript, and React.
+                Crafting interactive and aesthetically pleasing websites has become my canvas for creative expression.
+                I believe that the web is a powerful medium to bring ideas to life, and I am constantly pushing my boundaries to harness its full potential.
                 </Div>
                 {/* PARAGRAPH END */}
 
                 {/* PARAGRAPH START */}
                 <Div className="max-w-[759px] 2xl:max-w-[959px] text-[16px] 2xl:text-[20px] leading-[24px] 2xl:leading-[32px] relative">
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled itLorem Ipsum is
-                    simply dummy text of the printing and typesetting industry.
-                    Lorem Ipsum has been the industry's standard dummy text ever
-                    since the 1500s, when an unknown printer took a galley of
-                    type and scrambled it
+                But my curiosity doesn't stop at web development. 
+                I am also deeply engrossed in the fascinating world of Data Structures & Algorithms. 
+                The art of problem-solving and optimizing algorithms has become a personal challenge, and I am continuously honing my skills in this field.
+                Beyond theory, I firmly believe in applying this knowledge to practical problems, turning concepts into solutions that make a real difference.
+                Join me on this journey of exploration and innovation as we navigate the dynamic intersections of technology and engineering.
                 </Div>
                 {/* PARAGRAPH END */}
             </Wrapper>

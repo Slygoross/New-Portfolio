@@ -2,7 +2,7 @@ import { useRef } from "react";
 import { motion } from "framer-motion";
 
 import Wrapper from "./Wrapper";
-import man from "../assets/man.png";
+import man from "../assets/pranav_pic.png";
 import externalLinkIcon from "../assets/external-link-icon.png";
 import gmailIcon from "../assets/email-icon.png";
 import { scrollTo } from "../helper";
@@ -97,13 +97,10 @@ const HeroBanner = () => {
                 >
                     <div className="font-light mb-4">
                         👋 Hi, I Am{" "}
-                        <span className="font-semibold">John Doe</span>
+                        <span className="font-semibold">Pranav Modgil</span>
                     </div>
-                    <div className="max-w-[510px]">
-                        I create and maintain modern websites and applications.
-                        I solve all your business problems. Lorem Ipsum is
-                        simply dummy text of the printing and typesetting
-                        industry.
+                    <div className="max-w-[450px]">
+                    I am an aspiring Software Engineer, a passionate student at Thapar Institute Of Engineering & Technology, currently in my third year, majoring in Electronics & Computer Engineering.
                     </div>
                 </motion.div>
                 {/* INTRO END */}
@@ -117,7 +114,7 @@ const HeroBanner = () => {
                 >
                     {/* START */}
                     <div className="flex items-center gap-3">
-                        <div className="text-[80px] font-light">80+</div>
+                        <div className="text-[80px] font-light">2+</div>
                         <div className="leading-[22px]">
                             SUCCESSFULLY
                             <br />
@@ -130,7 +127,7 @@ const HeroBanner = () => {
 
                     {/* START */}
                     <div className="flex items-center gap-3">
-                        <div className="text-[80px] font-light">15+</div>
+                        <div className="text-[80px] font-light">1+</div>
                         <div className="leading-[22px]">
                             YEARS OF
                             <br />
@@ -148,11 +145,15 @@ const HeroBanner = () => {
                     animate={{ y: 0 }}
                     transition={{ duration: 0.5 }}
                 >
-                    <img src={man} alt="" />
+                <div className="w-[400px] md:w-[500px] 2xl:w-[600px] h-[400px] md:h-[500px] 2xl:h-[600px] flex justify-center items-end">
+                    <div className="w-full">
+                        <img src={man} alt="Pranav" className="w-full h-auto" />
+                    </div>
+                </div>
 
                     {/* HIRE ME BUTTON START */}
                     <div
-                        className="absolute top-[140px] -right-10 2xl:top-[240px] 2xl:-right-10 w-[140px] h-[140px] rounded-full bg-white/[0.7] flex flex-col justify-center items-center gap-2 backdrop-blur-sm cursor-pointer transition-transform scale-[0.65] md:scale-100 active:scale-[0.55] md:active:scale-90"
+                        className="absolute top-[350px] -right-10 2xl:top-[240px] 2xl:-right-10 w-[140px] h-[140px] rounded-full bg-white/[0.7] flex flex-col justify-center items-center gap-2 backdrop-blur-sm cursor-pointer transition-transform scale-[0.65] md:scale-100 active:scale-[0.55] md:active:scale-90"
                         onClick={() => scrollTo("contact")}
                     >
                         <img
@@ -160,7 +161,7 @@ const HeroBanner = () => {
                             alt=""
                             className="w-[15px]"
                         />
-                        <div className="text-black">Hire Me</div>
+                        <div className="text-black">Contact Me</div>
                     </div>
                     {/* HIRE ME BUTTON END */}
                 </motion.div>
